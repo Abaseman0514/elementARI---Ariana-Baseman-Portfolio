@@ -1,0 +1,173 @@
+.main {
+ font-family: 'Share Tech Mono', monospace; 
+ color: #350358;
+ font-size: 100px;
+ }
+
+.detail {
+font-family: 'Montserrat', sans-serif;
+ color: #7700cc; 
+ font-size: 100px;
+}
+
+.links,
+#links {
+ font-size: 18pt;
+ color:#e2dde6;
+ font-family: 'Quicksand', sans-serif;
+ display: flex;
+ justify-content: space-evenly;
+ text-decoration: none;
+ background-color: #1e0033;
+ width: 100%;
+}
+
+.header {
+ background: linear-gradient(to right, #B83F0A 0%, #055D96 33%, #74ADE4 66%, #6CA12C 100%);
+ width: 100%;
+}
+
+.summaryMain {
+ width: 60%;
+ text-align: left;
+ margin-left: 2rem;
+ font-size: 25px;
+ line-height: 50px;
+}
+
+.summaryMain:first-letter {
+ float: left;
+ font-size: 80px;
+ line-height: 1;
+ font-weight: bold;
+ margin-right: 9px;
+ color: #7700cc;
+}
+
+.summary{
+ width: 70%;
+ text-align: left;
+ margin-left: 2rem;
+ font-size: 25px;
+ line-height: 50px;
+}
+
+.summary:first-letter {
+ float: left;
+ font-size: 80px;
+ line-height: 1;
+ font-weight: bold;
+ margin-right: 9px;
+ color: #7700cc;
+}
+
+.contact {
+ text-align: center;
+}
+
+.contactBlock {
+ padding-top: 20px;
+width: 50%;
+}
+
+.background {
+float: right;
+ margin-top: -325px;
+}
+
+.bubbleAir {
+float: right; 
+margin-top: -600px;
+margin-right: 2rem;
+}
+
+.bubbleWater {
+ float: right;
+ margin-right: 2rem;
+}
+
+.bubbleEarth {
+ float: right;
+ margin-right: 2rem;
+}
+
+.bubbleFire {
+ float: right;
+ margin-right: 2rem;
+ margin-top: -270px;
+}
+
+@media only screen and (max-width: 480px) {
+ .main {
+  font-size: 30px;
+  }
+ 
+ .detail {
+  font-size: 30px;
+ }
+ 
+ .links,
+ #links {
+  font-size: 12pt;
+ }
+
+ .summaryMain {
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 12px;
+  line-height: 20px;
+ }
+ 
+ .summaryMain:first-letter {
+   font-size: 20px;
+   }
+ 
+ .summary{
+  width: 100%;
+  margin-left: 1rem;
+  margin-right: 1rem;
+  font-size: 12px;
+  line-height: 20px;
+ }
+ 
+ .summary:first-letter {
+  font-size: 20px;
+  }
+ 
+  .contactBlock {
+  padding-top: 20px;
+ width: 100%;
+ }
+ 
+ .background {
+text-align: center;
+margin-top: 0;
+
+ }
+ 
+ .bubbleAir {
+ /* float: right;  */
+ /* margin-top: -830px; */
+ margin-right: 2rem;
+ }
+ 
+ .bubbleWater {
+  float: right;
+  margin-right: 2rem;
+ }
+ 
+ .bubbleEarth {
+  float: right;
+  margin-right: 2rem;
+ }
+ 
+ .bubbleFire {
+  float: right;
+  margin-right: 2rem;
+  margin-top: -270px;
+ }
+
+}
+
+
